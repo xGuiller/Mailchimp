@@ -1,0 +1,143 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css2? family= Cormorant+Garamond:wght@500 & family= Open+Sans & display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/*Logo*/
+.layout__logo{
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.logo__img{
+    width: 200px;
+}
+
+/*Formulario*/
+
+.layout__content{
+    float: left;
+    width: 535px;
+    height: 800px;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.title{
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.subtitle{
+
+    margin-bottom: 30px;
+}
+.subtitle > a {
+    text-decoration: none;
+}
+.label{
+    font-weight: bold;
+}
+.email{
+    width: 500px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 35px;
+    border: 2px solid #ccc;
+}
+.username{
+    width: 500px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 35px;
+    border: 2px solid #ccc;
+}
+.password{
+    width: 500px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 35px;
+    border: 2px solid #ccc;
+}
+
+/*Lista*/
+.layout__list{
+    width: 100%;
+    height: 100px;
+    
+}
+
+.list__items1{
+    float: left;
+    width: 45%;  
+    list-style: none;
+    
+}
+.list__items2{
+    float: left;
+    width: 50%;
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";  
+    color: rgb(50, 122, 135); 
+    display: inline-block; 
+    padding-right: 10px;
+    font-size: 30px;
+    line-height: 10px;
+    vertical-align: -5px;
+    width: 15px;
+    }
+
+/*botones*/ 
+
+.btn__items{
+    width: 100%;
+    height: auto;
+}
+.btn{
+    float: left;
+    width: 30%;
+    height: 59px;
+    text-align: center;
+    line-height: 2.9;
+    border:2px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 20px;
+}
+
+.checkbox__item{
+    float: left;
+    width: 60%;
+    margin-left: 20px;
+    height: auto;
+}
+.checkbox{
+    float: left;
+    width: 10%;
+    margin-top: 10px;
+}
+
+.checkbox__text{
+    float: left;
+    width: 90%;
+    height: auto;
+}
+
+.footer__text{
+    margin-top: 150px;
+
+}
+.footer__link{
+    color:rgb(74, 138, 149)
+}
